@@ -14,7 +14,7 @@ public class Piechur : IWarrior
     {
         Name = "Piechur";
         Health = 90;
-        Attack = 50;
+        Attack = 60;
         Defense = 70;
     }
 
