@@ -12,11 +12,10 @@
             public DateTime EventDate { get; set; }
             public string Location { get; set; }
 
-            public EventDetails(string eventName, DateTime eventDate, string location)
+            // Metoda RegisterEvent korzystająca z właściwości bieżącego obiektu
+            public void RegisterEvent()
             {
-                EventName = eventName;
-                EventDate = eventDate;
-                Location = location;
+                Console.WriteLine($"Event: {EventName}, Date: {EventDate}, Location: {Location}");
             }
         }
     }

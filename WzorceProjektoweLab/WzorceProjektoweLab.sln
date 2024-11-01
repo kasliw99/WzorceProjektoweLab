@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "..\Zadania\Build
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonVault", "..\Zadania\Singleton\SingletonVault.csproj", "{4AD68D54-ECC5-4651-9DC8-5DF82888A99C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSmells", "..\Zadania\CodeSmells\CodeSmells.csproj", "{2B86A4D7-3976-44AB-B2A2-98B13BC48C4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeSmells", "..\Zadania\CodeSmells\CodeSmells.csproj", "{2B86A4D7-3976-44AB-B2A2-98B13BC48C4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "..\Zadania\Prototype\Prototype.csproj", "{DFC6EF08-C337-4973-8828-9C144B48EA4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "..\Zadania\Prototype\Prototype.csproj", "{DFC6EF08-C337-4973-8828-9C144B48EA4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "..\Zadania\Facade\Facade.csproj", "{1587FBFE-040E-4BC2-B67E-4BD55ACCE586}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{DFC6EF08-C337-4973-8828-9C144B48EA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFC6EF08-C337-4973-8828-9C144B48EA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFC6EF08-C337-4973-8828-9C144B48EA4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1587FBFE-040E-4BC2-B67E-4BD55ACCE586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1587FBFE-040E-4BC2-B67E-4BD55ACCE586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1587FBFE-040E-4BC2-B67E-4BD55ACCE586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1587FBFE-040E-4BC2-B67E-4BD55ACCE586}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{4AD68D54-ECC5-4651-9DC8-5DF82888A99C} = {6DEB2F4E-2C92-4893-A573-B68FB8C64319}
 		{2B86A4D7-3976-44AB-B2A2-98B13BC48C4A} = {6DEB2F4E-2C92-4893-A573-B68FB8C64319}
 		{DFC6EF08-C337-4973-8828-9C144B48EA4F} = {6DEB2F4E-2C92-4893-A573-B68FB8C64319}
+		{1587FBFE-040E-4BC2-B67E-4BD55ACCE586} = {6DEB2F4E-2C92-4893-A573-B68FB8C64319}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A9797FE-4DDC-4A83-A149-37104ECC492B}

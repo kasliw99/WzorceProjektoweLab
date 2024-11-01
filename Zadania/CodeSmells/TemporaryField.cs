@@ -6,17 +6,22 @@
         {
             public void GenerateInvoice()
             {
-                //_invoiceNumber = 12345;
-                // Przekształcone tymczasowe pole _invoiceNumber na lokalną zmienną
+                ////_invoiceNumber = 12345;
+                //// Przekształcone tymczasowe pole _invoiceNumber na lokalną zmienną
                 int invoiceNumber = 12345;
 
-                //_pdfWriter = new PdfWriter($"Invoice_{_invoiceNumber}.pdf");
-                // Przekształcone tymczasowe pole _pdfWriter na lokalną zmienną
-                PdfWriter pdfWriter = new PdfWriter($"Invoice_{invoiceNumber}.pdf");
+                ////_pdfWriter = new PdfWriter($"Invoice_{_invoiceNumber}.pdf");
+                //// Przekształcone tymczasowe pole _pdfWriter na lokalną zmienną
+                //PdfWriter pdfWriter = new PdfWriter($"Invoice_{invoiceNumber}.pdf");
 
-                // Generowanie faktury
-                pdfWriter.Write("Invoice Content");
-                pdfWriter.Close();
+                //// Generowanie faktury
+                //pdfWriter.Write("Invoice Content");
+                //pdfWriter.Close();
+
+                using (PdfWriter pdfWriter = new PdfWriter($"Invoice_{invoiceNumber}.pdf"))
+                {
+                    pdfWriter.Write("Invoice Content");
+                }
             }
 
             public void OtherMethod()
